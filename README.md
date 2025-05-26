@@ -1,58 +1,44 @@
 # BioSimulations
 
-BioSimulations is a collection of computational notebooks that demonstrate various biological simulations using numerical analysis techniques.
+A structured collection of Jupyter notebooks simulating biological systems using mathematical models and numerical methods.
 
-## Table of Contents
+This repository is designed for students, researchers, and educators exploring computational biology, epidemiology, ecology, and systems modeling.
 
-- [About the Project](#about-the-project)
-- [Notebooks Included](#notebooks-included)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
+---
 
-## About the Project
+## 📂 Project Structure
 
-This repository contains Jupyter notebooks that simulate different biological phenomena using numerical methods. The simulations include models such as:
+The notebooks are organized into topic-based folders for better modularity and clarity:
 
-- CRISPR Particle Simulation
-- FitzHugh-Nagumo Diffusion-Reaction Model
-- Lotka-Volterra Predator-Prey Dynamics
-- SARS-CoV-2 Spread Using SIR Models and RK4 Method
 
-- Mathematical Modelling in Ecological Systems
-  -Hardy and Weinberg Model
-  -One Locus Selection
+---
 
-These simulations serve as educational resources for understanding complex biological systems through computational approaches.
+## 📁 Module Descriptions
 
-## Notebooks Included
+### 🧬 `crispr/`
+- **`crispr_simulation.ipynb`**  
+  Simulates particle-like behavior inspired by CRISPR gene editing mechanisms using basic stochastic and physical modeling.
 
-1. **CRISPR_Particle_Simulation.ipynb**: Simulates the behavior of CRISPR particles in a given environment.
-2. **Fitzhugh_Nagumo_Diffusion_Reaction_Simulations.ipynb**: Models the FitzHugh-Nagumo equations to study nerve impulse propagation.
-3. **Lotka_Volterra_Simulations.ipynb**: Demonstrates predator-prey dynamics using the Lotka-Volterra equations.
-4. **Modelling_SARS_CoV2_Using_SIR_Models_and_RK4.ipynb**: Simulates the spread of SARS-CoV-2 using SIR models solved with the Runge-Kutta 4th order method.
+### ⚡ `electrophysiology/`
+- **`fitzhugh_nagumo.ipynb`**  
+  Implements the FitzHugh-Nagumo diffusion-reaction model to simulate excitability in neurons and cardiac cells.
 
-## Getting Started
+### 🦠 `epidemiology/`
+- **`sir_model_covid19.ipynb`**  
+  Simulates the spread of SARS-CoV-2 using a compartmental SIR model, solved with the 4th-order Runge-Kutta method.
 
-To get a local copy up and running, follow these steps.
+### 🌿 `ecology/`
+- **`lotka_volterra.ipynb`**  
+  Models predator-prey population dynamics using the classical Lotka-Volterra equations.
+- **`ecological_dynamics.ipynb`**  
+  Explores general ecological interactions like species competition and coexistence using system dynamics.
 
-### Prerequisites
+---
 
-Ensure you have the following installed:
+## 🚀 Getting Started
 
-- Python 3.x
-- Jupyter Notebook
-- Necessary Python packages (listed in `requirements.txt`)
+### 1. Clone the Repository
 
-### Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/avroj1t/biosimulations.git
-   cd biosimulations
+```bash
+git clone https://github.com/avroj1t/biosimulations.git
+cd biosimulations
