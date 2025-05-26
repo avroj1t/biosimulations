@@ -24,6 +24,10 @@ This repository contains Jupyter notebooks that simulate different biological ph
 - Lotka-Volterra Predator-Prey Dynamics
 - SARS-CoV-2 Spread Using SIR Models and RK4 Method
 
+- Mathematical Modelling in Ecological Systems
+  -Hardy and Weinberg Model
+  -One Locus Selection
+
 These simulations serve as educational resources for understanding complex biological systems through computational approaches.
 
 ## Notebooks Included
